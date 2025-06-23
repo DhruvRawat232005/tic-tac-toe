@@ -1,4 +1,4 @@
-# Wooden Tic Tac Toe
+# Tic Tac Toe
 
 A beautiful, responsive, and fully functional **Tic Tac Toe** game with a **wooden theme**, built using only **HTML**, **CSS**, and **JavaScript**.
 
