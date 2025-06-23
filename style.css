@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+  background-size: cover;
+  color: #2d1a05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+  background: rgba(255, 248, 240, 0.95);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #caa472;
+  border-radius: 8px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #442b11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.cell:hover {
+  background: #b8895a;
+}
+
+#status {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+button#reset {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #8c6239;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button#reset:hover {
+  background-color: #734d2c;
+}
