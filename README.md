@@ -29,8 +29,8 @@ This project features a warm wood-texture design, elegant hover effects, player 
 | Layer     | Tech           |
 |-----------|----------------|
 | Markup    | HTML5          |
-| Styling   | CSS3 (Wood Texture Theme) |
-| Logic     | JavaScript (Vanilla) |
+| Styling   | CSS3 |
+| Logic     | JavaScript |
 
 ---
 
